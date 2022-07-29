@@ -139,14 +139,16 @@ cp * $HOME/Library/Application\ Support/Übersicht/widgets/
 ```sh
 cd dots/Geektools
 cp assets/* ~/Documents
+mv scripts geek
 cp -r geek ~/Documents
+cp widget/* ~/Documents
 ```
 
-> Change directory path names for scripts
+> Change directory path names for all scripts
 
 ```sh
 cd ~/Documents/
-nano /file/name
+nano /file/name/
 ```
 
 
