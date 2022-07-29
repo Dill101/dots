@@ -25,7 +25,9 @@
 
 ## 🛠️ Setup
 
-:warning: ‎ **You can skip Brew and yabai installation if you've done so already! Also, these configs were made for the 14-inch MacbookPro, therefore on other devices, you may have to tinker around with the widget settings.**
+:warning: ‎ **These configs were made for the 14-inch MacbookPro, therefore on other devices, you may have to tinker around with the widget settings.**
+
+:warning: ‎ **You can skip Brew and yabai installation if you've done so already!.**
 
 <details>
 <summary><b>1. Install Required Dependencies </b></summary>
