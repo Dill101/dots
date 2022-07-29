@@ -1,0 +1,40 @@
+sudo yabai --load-sa
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+
+yabai -m space 1 --label 
+yabai -m space 2 --label 
+yabai -m space 3 --label 
+yabai -m space 4 --label 
+yabai -m space 5 --label 
+yabai -m space 6 --label 
+yabai -m space 7 --label 
+yabai -m space 8 --label 
+
+
+yabai -m config mouse_follows_focus          off
+yabai -m config focus_follows_mouse          off
+yabai -m config window_placement             second_child
+yabai -m config window_topmost               on
+yabai -m config window_shadow                off
+yabai -m config window_opacity               off
+yabai -m config window_opacity_duration      0.0
+yabai -m config active_window_opacity        1
+yabai -m config normal_window_opacity        1
+yabai -m config window_border                off
+yabai -m config window_border_width          7
+yabai -m config active_window_border_color color 0xff69b373
+yabai -m config normal_window_border_color 0xff51425C
+yabai -m config split_ratio                  0.50
+yabai -m config auto_balance                 off
+yabai -m config mouse_modifier               fn
+yabai -m config mouse_action1                move
+yabai -m config mouse_action2                resize
+
+# general space settings
+yabai -m config layout                       bsp
+yabai -m config top_padding                  20
+yabai -m config bottom_padding               40
+yabai -m config left_padding                 90
+yabai -m config right_padding                40
+yabai -m config window_gap                   5
+
