@@ -141,7 +141,7 @@ cd dots/Geektools
 cp assets/* ~/Documents
 mv scripts geek
 cp -r geek ~/Documents
-cp widget/* ~/Documents
+cp widgets/* ~/Documents
 ```
 
 > Change directory path names for all scripts
@@ -151,7 +151,7 @@ cd ~/Documents/
 nano /file/name/
 ```
 
-
+Open Finder, go into Documents, open each .glet file.
   
   
 
