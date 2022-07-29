@@ -127,8 +127,13 @@ Make sure the following is turned off:
    
 <img width="320" alt="Screenshot 2022-07-29 at 12 04 22 AM" src="https://user-images.githubusercontent.com/60739808/181585953-acb1b4b1-7378-4466-b740-7bb4fff67dad.png">
 
-Now copy over the folders within the widgets folder into the Ubersicht folder. Allow the **new** simple-bar folder to overwrite the previous installed one.
- 
+> Now copy over the folders within the widgets folder into the Ubersicht folder. Allow the **new** simple-bar folder to overwrite the previous installed one.
+
+```sh
+cd dots/Ubersicht
+cp * $HOME/Library/Application\ Support/Übersicht/widgets/
+```
+
 > Copy Geektool configs
    
 ```sh
