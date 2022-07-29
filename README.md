@@ -131,7 +131,7 @@ Make sure the following is turned off:
 
 ```sh
 cd dots/Ubersicht
-cp * $HOME/Library/Application\ Support/Übersicht/widgets/
+cp -r * $HOME/Library/Application\ Support/Übersicht/widgets/
 ```
 
 > Copy Geektool configs
@@ -151,7 +151,7 @@ cd ~/Documents/
 nano /file/name/
 ```
 
-Open Finder, go into Documents, open each .glet file.
+> Open Finder, go into Documents, open each .glet file and Geektools should then open up.
   
   
 
