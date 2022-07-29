@@ -1,0 +1,1 @@
+osascript -e 'tell application "Finder"	make new Finder window	activateend tell'
